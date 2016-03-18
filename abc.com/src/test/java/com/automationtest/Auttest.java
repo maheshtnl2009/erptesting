@@ -9,13 +9,16 @@ import com.ERPAnalysts.pages.GenerateResults;
 public class Auttest {
 
 	public static GenerateResults gr=new GenerateResults();
+	
 	@BeforeMethod
 	public static void test01(){		
 	}
+	
 	@Test
 	public static void test02(){		
 	gr.pt();
 	}
+	
 	@AfterMethod
 	public static void test03(){
 		

@@ -109,9 +109,9 @@ public void wf(){
 	
 	
 }
-public static void main(String[] args){
-	GenerateResults gs=new GenerateResults();
-	//gs.pt();
-	gs.wf();
-}
+//public static void main(String[] args){
+//	GenerateResults gs=new GenerateResults();
+//	//gs.pt();
+//	gs.wf();
+//}
 }
