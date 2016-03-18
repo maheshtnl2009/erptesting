@@ -82,11 +82,7 @@ public void wf(){
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
-	
-	
-	
-	
-	System.out.println("take screenshot");
+		System.out.println("take screenshot");
 	
 	File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	String out = new SimpleDateFormat("yyyy-MM-dd hh-mm-ss'.png'").format(new Date());

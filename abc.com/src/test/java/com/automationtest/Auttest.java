@@ -16,7 +16,8 @@ public class Auttest {
 	
 	@Test
 	public static void test02(){		
-	gr.pt();
+	//gr.pt();
+	gr.wf();
 	}
 	
 	@AfterMethod
