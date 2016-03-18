@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Smoke For ERP" parallel="methods" thread-count="1" >
+	<test name="ERP Smoke Testing">
+		<classes>
+			<class name="com.automationtest.Auttest"></class>
+		</classes>
+	</test>
+</suite>
+ 
