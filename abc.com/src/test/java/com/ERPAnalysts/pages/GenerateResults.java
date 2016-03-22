@@ -59,7 +59,7 @@ public void wf(){
 	
 	driver.findElement(By.id("userid")).sendKeys("ERPAdmin");
 	
-	driver.findElement(By.id("pwd")).sendKeys("Fru4ujas");
+	driver.findElement(By.id("pwd")).sendKeys("/Fru4ujas");
 			
 	long start=System.currentTimeMillis();		
 	driver.findElement(By.xpath(".//*[@id='login']/div/div[1]/div[9]/input")).click();
