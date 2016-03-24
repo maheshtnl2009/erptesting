@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37908" started-at="2016-03-18T19:19:48Z" finished-at="2016-03-18T19:20:26Z">
+  <suite name="Default suite" duration-ms="70622" started-at="2016-03-24T22:00:31Z" finished-at="2016-03-24T22:01:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37908" started-at="2016-03-18T19:19:48Z" finished-at="2016-03-18T19:20:26Z">
+    <test name="Default test" duration-ms="70622" started-at="2016-03-24T22:00:31Z" finished-at="2016-03-24T22:01:42Z">
       <class name="com.automationtest.Auttest">
-        <test-method status="PASS" signature="test01()[pri:0, instance:com.automationtest.Auttest@27f674d]" name="test01" is-config="true" duration-ms="19" started-at="2016-03-18T15:19:49Z" finished-at="2016-03-18T15:19:49Z">
+        <test-method status="PASS" signature="test01()[pri:0, instance:com.automationtest.Auttest@48140564]" name="test01" is-config="true" duration-ms="18" started-at="2016-03-24T18:00:31Z" finished-at="2016-03-24T18:00:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01 -->
-        <test-method status="PASS" signature="test02()[pri:0, instance:com.automationtest.Auttest@27f674d]" name="test02" duration-ms="37674" started-at="2016-03-18T15:19:49Z" finished-at="2016-03-18T15:20:26Z">
+        <test-method status="PASS" signature="test02()[pri:0, instance:com.automationtest.Auttest@48140564]" name="test02" duration-ms="70558" started-at="2016-03-24T18:00:31Z" finished-at="2016-03-24T18:01:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test02 -->
-        <test-method status="PASS" signature="test03()[pri:0, instance:com.automationtest.Auttest@27f674d]" name="test03" is-config="true" duration-ms="4" started-at="2016-03-18T15:20:26Z" finished-at="2016-03-18T15:20:26Z">
+        <test-method status="PASS" signature="test03()[pri:0, instance:com.automationtest.Auttest@48140564]" name="test03" is-config="true" duration-ms="1" started-at="2016-03-24T18:01:42Z" finished-at="2016-03-24T18:01:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test03 -->

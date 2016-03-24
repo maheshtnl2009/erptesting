@@ -1,4 +1,6 @@
 package com.automationtest;
+import java.sql.SQLException;
+
 import org.testng.annotations.AfterMethod;
 
 import org.testng.annotations.BeforeMethod;
@@ -15,9 +17,12 @@ public class Auttest {
 	}
 	
 	@Test
-	public static void test02(){		
-	//gr.pt();
-	gr.wf();
+	public static void test02() throws ClassNotFoundException, SQLException{		
+		gr.pt();
+	//gr.wf();
+	gr.readdata();
+	
+	
 	}
 	
 	@AfterMethod
