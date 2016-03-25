@@ -112,7 +112,8 @@ public void wf(){
 	 WebElement repeattime=driver.findElement(By.id("DERIVED_PTP_PTP_RPT_TM_INT"));
 	 repeattime.sendKeys("10");
 	 WebElement runswitch=driver.findElement(By.id("b1"));
-	 runswitch.click();try {
+	 runswitch.click();
+	 try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -120,19 +121,14 @@ public void wf(){
 		}
 	 //driver.switchTo().defaultContent();
 	  	for (int i=1;i<=5;i++){
-//	  		try {
-//	  			Thread.sleep(5000);
-//	  		} catch (InterruptedException e) {
-//	  			// TODO Auto-generated catch block
-//	  			e.printStackTrace();
-//	  		}	 
-//		
+	  			
 	//	t.gettimedata();
 		WebElement totaltime=driver.findElement(By.id("DERIVED_PTP_PTP_TOTAL_TIME"));
 		 WebElement browsertime=driver.findElement(By.id("DERIVED_PTP_PTP_WBNW_TIME"));
 		 WebElement webservertime=driver.findElement(By.id("DERIVED_PTP_PTP_WSNW_TIME"));
 		 WebElement appservertime=driver.findElement(By.id("DERIVED_PTP_PTP_ASNW_TIME"));
 		 WebElement dbtime=driver.findElement(By.id("DERIVED_PTP_PTP_DB_TIME"));
+		 
 		  String total= totaltime.getAttribute("value");
 	String browtime=browsertime.getAttribute("value");
 	String webtime=webservertime.getAttribute("value");
@@ -146,13 +142,17 @@ public void wf(){
 	System.out.println("databasetime value in time is :"+databasetime);
 
 	System.out.println("-----------------------------------------");
-	oc.dbquery(total,browtime,webtime);
 	try {
 		Thread.sleep(10000);
 	} catch (InterruptedException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
-	}	 
+	}
+	
+	
+/*
+	oc.dbquery(total,browtime,webtime,apptime,databasetime);
+	*/
 	
 	}
 	System.out.println("skipped out of for loop");	

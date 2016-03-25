@@ -9,7 +9,7 @@ import java.sql.Statement;
 
 public class OrclConn {
 	
-	public  void  dbquery(String num,String var1,String var2) throws  ClassNotFoundException, SQLException {                                                  
+	public  void  dbquery(String num,String var1,String var2,String var3,String var4) throws  ClassNotFoundException, SQLException {                                                  
         //Connection URL Syntax: "jdbc:mysql://ipaddress:portnumber/db_name"        
         String dbUrl = "jdbc:oracle:thin:@localhost:1521:xe";                   
 
@@ -21,9 +21,11 @@ public class OrclConn {
         String data1=num;
         String data2=var1;
         String data3=var2;
+        String data4=var3;
+        String data5=var4;
 
         //Query to Execute      
-        String query = "insert into ERPDATA values("+data1+",'"+data2+"','"+data3+"')";  
+        String query = "insert into ERPDATA values("+data1+",'"+data2+"','"+data3+"','"+data4+"','"+data5+"')";  
          
         //Load mysql jdbc driver        
         Class.forName("oracle.jdbc.driver.OracleDriver");         
